@@ -1,4 +1,5 @@
-This code sends an email using Simple Email Service (SES) when the current local time arrives at a certain point. 
+#This code sends an email using Simple Email Service (SES) when the current local time arrives at a certain point. 
+
 import boto3, json, json
 region =  region  
 EventBridge_Client = boto3.client('events', region_name = region)
